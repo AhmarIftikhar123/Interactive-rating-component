@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Rating Component</title>
+  </head>
+  <body>
+    <div class="card" >
+      <div class="container">
+        <div class="image-box">
+          <img src="images/icon-star.svg" alt="" />
+        </div>
+
+        <div class="form-text">
+            <h1>How did we do?</h1>
+            
+            <p>
+              Please! let us know how we did with your support request.All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <div class="rating-range">
+            <button class="no 1">1</button>
+            <button class="no 2">2</button>
+            <button class="no 3">3</button>
+            <button class="no 4">4</button>
+            <button class="no 5">5</button>
+          </div>
+          <form>
+          <div class="submit-btn">
+            <button type="button" id="submitbtn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card-2" style="display: none;">
+      <div class="container2">
+        <div class="image-box2">
+          <img src="images/illustration-thank-you.svg" alt="" />
+        </div>
+
+        <div class="output" id="output">
+          You selected <span id="optspan"> -- </span>&nbsp; out of <span> 5 </span>
+        </div>
+        <form>
+          <div class="form-text-2">
+            <h1>Thank you!</h1>
+
+            <p>
+              We appreciate you taking the time to give a rating. if you ever
+              need more support,don't hesitate to get in touch!
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
